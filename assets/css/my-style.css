@@ -1,0 +1,207 @@
+.img-grid-1{
+    background-image: url(../images/small_resturant.png);
+    grid-area: img-grid-1;
+    min-height: 51.5rem;
+}
+.img-grid-2{
+    background-image: url(../images/swimming_pool.jpg);
+    grid-area: img-grid-2;
+}
+.img-grid-3{
+    background-image: url(../images/the_restaurant.jpg);
+    grid-area: img-grid-3;
+}
+.img-grid-4{
+    background-image: url(../images/inner_garden.jpg);
+    grid-area: img-grid-4;
+}
+.img-grid-5{
+    background-image: url(../images/suite_bathroom.jpg);
+    grid-area: img-grid-5;
+    min-height: 51.5rem;
+}
+.img-grid-6{
+    background-image: url(../images/coctails.png);
+    grid-area: img-grid-6;
+}
+.img-grid-7{
+    background-image: url(../images/lobi.png);
+    grid-area: img-grid-7;
+}
+.img-grid-8{
+    background-image: url(../images/sushi.png);
+    grid-area: img-grid-8;
+}
+.img-grid-9{
+    background-image: url(../images/fumoir.jpg);
+    grid-area: img-grid-9;
+}
+.img-grid-10{
+    background-image: url(../images/small_lemon.png);
+    grid-area: img-grid-10;
+    min-height: 51.5rem;
+}
+.img-grid-11{
+    background-image: url(../images/restaurant-by-aman.jpg);
+    grid-area: img-grid-11;
+}
+.img-grid-12{
+    background-image: url(../images/lobby_high_res.jpg);
+    grid-area: img-grid-12;
+    min-height: 51.5rem;
+}
+.img-grid-13{
+    background-image: url(../images/spa_high_res.jpg);
+    grid-area: img-grid-13;
+}
+.container-gall{
+    width: 100%;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2vmin;
+    grid-template-areas: 
+    "img-grid-1 img-grid-2 img-grid-3 img-grid-3"
+    "img-grid-1 img-grid-4 img-grid-5 img-grid-6"
+    "img-grid-7 img-grid-8 img-grid-5 img-grid-9"
+    "img-grid-10 img-grid-11 img-grid-12 img-grid-12"
+    "img-grid-10 img-grid-13 img-grid-12 img-grid-12";
+}
+@media (max-width: 767px) {
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "img-grid-1 img-grid-3 img-grid-3"
+        "img-grid-1 img-grid-2 img-grid-4"
+        "img-grid-5 img-grid-6 img-grid-4"
+        "img-grid-5 img-grid-7 img-grid-8"
+        "img-grid-9 img-grid-10 img-grid-11"
+        "img-grid-12 img-grid-10 img-grid-13";
+    }
+    .img-grid-12{
+        min-height: 0px;
+    }
+    .img-grid-4{
+        min-height: 51.5rem;
+    }
+  }
+.gallery a{
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.8);
+    opacity: 0;
+    transition: opacity .5s;
+}
+.gallery a:hover::before{
+    opacity: 1;
+}
+#logo{
+    width: 20px !important;
+}
+.cover1{
+    background-image: url(../images/deluxe-room/deluxe_palace.jpg);
+}
+.cover2{
+    background-image: url(../images/suite/suite.jpg);
+}
+.cover3{
+    background-image: url(../images/premier/premier_palace.jpg);
+}
+
+img {
+    vertical-align: middle;
+}
+  /* Position the image container (needed to position the left and right arrows) */
+.containerImg {
+    position: relative;
+}
+  .mySlides {
+    display: none;
+}
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 20px;
+}
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.rowImg:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rowImg{
+    margin-left: 0px !important;
+}
+.column {
+    float: left;
+    width: 16.66%;
+}
+.demo {
+    opacity: 0.6;
+}
+.active, .demo:hover {
+    opacity: 1;
+}
+.description{
+   width: 100%;
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+.bgWhite{
+    background-color: #fff;
+}
+.orange{
+    color: #FF5722;
+}
+.tableAdmin{
+    margin-bottom: 100px;
+}
+.accommodations{
+    background-color: #fff;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+#insertUpdate{
+    float: right !important;
+}
