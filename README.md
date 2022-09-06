@@ -1,3 +1,6 @@
+Angular projekat - web sajt restorana.
+Backend je u folderu crud, radjen u PHP-u.
+
 Opis funkcionalnosti 
 1. Dinamički ispis sadržaja iz json fajlova i iz baze. 
 2. Filtriranje stavki iz menija prema kategoriji. 
