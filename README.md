@@ -19,3 +19,7 @@ Korišćene tehnologije
 4. Takođe, korisnici mogu da ostave recenziju ili pošalju poruku administratoru sajta.
 5. Admin panel gde se mogu modifikovati, brisati i dodavati sobe.
 6. U admin panelu se ispisuju sve poruke korisnika, a na index strani samo određene + straničenje.
+
+Admin nalog
+email :  jovana.bosnic.90.18@ict.edu.rs <br/>
+password: jovana12345
